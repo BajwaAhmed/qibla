@@ -1,0 +1,159 @@
+#map
+{
+  position: inherit !important;
+}
+
+button img {
+  height: 40px;
+    width: 40px;
+  }
+
+@media (max-width: 600px) {
+  .controls {
+    z-index: 0 !important;
+    position: absolute  !important;
+    left: 11px !important;
+    top: 45px  !important;
+    font-size: 17px !important;
+    min-width: 95% !important;
+    height: 52px !important;
+  }
+}
+.controls {
+  margin-top: 11px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 39px;
+  min-width: 300px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.controlsLat {
+  min-width: 44% !important;
+  z-index: 0 !important;
+  position: absolute !important;
+  left: 10px !important;
+  top: 90% !important;
+  margin-top: 11px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 39px;
+  min-width: 300px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.controlsLng {
+  min-width: 40% !important;
+  z-index: 0 !important;
+  position: absolute !important;
+  left: 47% !important;
+  top: 90% !important;
+  margin-top: 11px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 39px;
+  min-width: 300px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.goButton{
+  top: 91.5% !important;
+  left: 88%  !important;
+  border: none;
+  background-color: #267cb5; 
+  padding: 12px 21px 12px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+.inputCoordinateButtonMobile
+{
+  display: none;
+  top: 90% !important;
+    left: 39% !important;
+  /* left: 80%  !important; */
+  margin-left: 10px;
+  border: none;
+  padding: 12px 21px 12px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-image: url("https://icons-for-free.com/iconfiles/png/512/compose+draw+edit+write+icon-1320196713151339744.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: #267cb5; 
+  padding: 0px;
+  text-align:center;
+}
+.inputCoordinateButton{
+  top: 1.5% !important;
+  /* left: 80%  !important; */
+  margin-left: 10px;
+  border: none;
+  background-color: #267cb5; 
+  padding: 12px 21px 12px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .controlsLat
+  {
+  top: 6% !important;
+  }
+  .controlsLng
+  {
+  top: 6% !important;
+  }
+  .goButton
+  {
+    top: 7.5% !important;
+  }
+
+}
+@media (max-width: 600px) {
+  .controlsLat
+  {
+  top: 12% !important;
+  }
+  .controlsLng
+  {
+  top: 12% !important;
+  }
+  .goButton
+  {
+    top: 13.5% !important;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .inputCoordinateButton
+  {
+display: none;
+  }
+  .inputCoordinateButtonMobile
+{
+  display: block;
+}
+
+}
