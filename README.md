@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# QIBLA
+Qibla is a simple application designed to help users find the direction of the Qibla from their current location, making it easier to offer prayers in the correct direction. The app uses geolocation services to determine the user's current location and draws a line towards the Kaaba, providing a visual indicator that serves as proof for users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ABOUT
+The Qibla app is currently under development, and the initial version is written in a "spaghetti code" style. However, future plans include refining the codebase, adding more features, and making the application more user-friendly, mobile-responsive, and progressive.
 
-## Available Scripts
+# FEATURES
+Qibla Direction: Provides the direction of the Qibla based on your current location.
 
-In the project directory, you can run:
+Visual Line Indicator: Draws a line pointing directly to the Kaaba to offer users a visual cue, making it look more authentic and reliable.
 
-### `npm start`
+Geolocation-Based: Utilizes geolocation to pinpoint the user's exact location for accurate Qibla direction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# FUTURE PLANS
+Code Refactoring: Improve the code structure to enhance readability, maintainability, and scalability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mobile-Friendly Design: Make the app fully responsive and optimized for mobile devices.
 
-### `npm test`
+Progressive Web App (PWA): Convert the application into a Progressive Web App to enable offline access and faster loading times.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Additional Features: Add more features like prayer times, nearby mosques, compass mode, and more customization options.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# DEVELOPMENT STATUS
+This application is currently in its early stages of development. It has a basic implementation of the main functionality, but there are many improvements and new features planned for future updates.
